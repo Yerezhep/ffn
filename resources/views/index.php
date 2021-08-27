@@ -28,7 +28,7 @@
             <tbody>
             <?php foreach($tasks as $task): ?>
             <tr>
-                <th scope="row"><?=$num++?></th>
+                <th scope="row"><?=($num++)+$offset?></th>
                 <td class="col1"><?=$task['author']?></td>
                 <td><?=$task['email']?></td>
                 <td><?=$task['title']?></td>
