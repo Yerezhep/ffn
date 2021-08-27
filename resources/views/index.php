@@ -37,7 +37,7 @@
             <?php endforeach;?>
             </tbody>
         </table>
-        <?php if($count>limit): ?>
+        <?php if($count>$limit): ?>
         <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-center">
                 <?php for ($i=1; $i<=$total_pages; $i++): ?>

@@ -1,5 +1,5 @@
 <?php
-namespace App\Services;
+namespace app\Services;
 
 class Builder extends DB{
     public $table;

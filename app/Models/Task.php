@@ -1,7 +1,7 @@
 <?php
 
-namespace App\Models;
-use App\Services\Builder;
+namespace app\Models;
+use app\Services\Builder;
 
 class Task extends Builder{
 

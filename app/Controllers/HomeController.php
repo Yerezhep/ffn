@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Controllers;
+namespace app\Controllers;
 
-use App\Models\Task;
+use app\Models\Task;
 
 
 class HomeController extends Controller

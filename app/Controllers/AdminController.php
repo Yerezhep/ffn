@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Controllers;
+namespace app\Controllers;
 
-use App\Models\Task;
-use App\Interfaces\EditInterface;
+use app\Models\Task;
+use app\Interfaces\EditInterface;
 
 
 class AdminController extends Controller implements EditInterface

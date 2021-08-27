@@ -1,7 +1,7 @@
 <?php
 
 
-use App\Services\Route;
+use app\Services\Route;
 
 
 Route::get('/login','AuthController@login');
