@@ -14,7 +14,7 @@ class Route
         if($method == 'GET' && $url == $REQUEST_URI){
             $controller = explode('@',$move)[0];
             $method = explode('@',$move)[1];
-            $controller = 'App\Controllers\\'.$controller;
+            $controller = 'app\Controllers\\'.$controller;
             $objectController = new $controller;
             $objectController->$method();
 
@@ -31,7 +31,7 @@ class Route
         if($method == 'POST' && $url == $REQUEST_URI){
             $controller = explode('@',$move)[0];
             $method = explode('@',$move)[1];
-            $controller = 'App\Controllers\\'.$controller;
+            $controller = 'app\Controllers\\'.$controller;
             $objectController = new $controller;
             $objectController->$method();
 
